@@ -34,6 +34,11 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <12 23>;
         };
+
+        combo_star {
+            bindings = <&kp STAR>;
+            key-positions = <24 35>;
+        };
     };
 
     behaviors {
