@@ -24,6 +24,16 @@
             timeout-ms = <50>;
             layers = <0 2>;
         };
+
+        combo_back {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <22 23>;
+        };
+
+        combo_printscreen {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <12 23>;
+        };
     };
 
     behaviors {
@@ -96,10 +106,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp C_PP          &kp K_MUTE
-&kp LCTRL  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 4    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp C_AC_FORWARD  &kp C_VOLUME_UP
-&kp LSHFT  &trans    &trans        &trans        &trans        &trans          &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp C_PREVIOUS    &kp C_VOLUME_DOWN
-                                   &kp LGUI      &trans        &kp SPACE       &kp RET    &trans     &kp RALT
+&kp TAB    &kp EXCL  &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &trans   &trans  &trans    &trans  &kp C_PP          &kp K_MUTE
+&kp LCTRL  &trans    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 4    &trans   &trans  &trans    &trans  &kp C_AC_FORWARD  &kp C_VOLUME_UP
+&kp LSHFT  &trans    &trans        &trans        &trans        &trans          &trans   &trans  &trans    &trans  &kp C_PREVIOUS    &kp C_VOLUME_DOWN
+                                   &kp LGUI      &trans        &kp SPACE       &kp RET  &trans  &kp RALT
             >;
         };
     };
