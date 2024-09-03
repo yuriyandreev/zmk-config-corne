@@ -98,7 +98,7 @@
             bindings = <
 &kp TAB    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp NUMBER_6    &kp N7          &kp N8        &kp N9     &kp N0         &kp KP_ASTERISK
 &kp LCTRL  &kp MINUS     &kp EQUAL     &kp SEMI      &kp LBKT      &kp RBKT     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp PG_UP      &kp HOME
-&kp LSHFT  &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans       &trans          &trans          &trans        &trans     &kp PAGE_DOWN  &kp END
+&kp LSHFT  &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)     &trans       &trans          &trans          &trans        &trans     &kp PAGE_DOWN  &kp END
                                        &kp LGUI      &trans        &kp SPACE    &kp RET         &trans          &kp RALT
             >;
         };
